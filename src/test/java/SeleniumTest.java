@@ -11,7 +11,7 @@ public class SeleniumTest {
 
         System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/resources/chromedriver");
         WebDriver driver = new ChromeDriver(options);
+
         driver.get("https://www.selenium.dev");
-        ;
     }
 }
